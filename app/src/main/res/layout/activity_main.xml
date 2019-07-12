@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <include
+            layout="@layout/view_time"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+    />
+
+    <include
+            layout="@layout/button_action"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+    />
+    <Button
+            android:id="@+id/btnLook"
+            android:layout_width="94dp"
+            android:layout_height="100dp"
+            android:text="map Look"
+            android:layout_column="1"
+            android:layout_margin="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"/>
+</LinearLayout>
